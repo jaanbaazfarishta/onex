@@ -1,5 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { auth } from "@/auth";
+import NavBar from "@/components/ui/navbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -16,13 +18,15 @@ export const metadata = {
   description: "Created by Luck Master",
 };
 
-export default function RootLayout({ children }) {
+export default async  function RootLayout({ children }) {
+  const session = await auth();
   return (
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <NavBar session={session} />
       </body>
     </html>
   );
