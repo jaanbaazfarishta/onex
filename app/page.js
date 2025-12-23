@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const games = [
+  { src: "/gameimages/fortunepills.jpg", alt: "FortunePills" },
   { src: "/gameimages/twox.png", alt: "TwoX" },
   { src: "/gameimages/fourx.png", alt: "FourX" },
   { src: "/gameimages/twentyfivex.png", alt: "TwentyFiveX" },
