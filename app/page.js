@@ -4,11 +4,8 @@ import Link from "next/link";
 const games = [
   { src: "/gameimages/fortunepills.jpg", alt: "FortunePills" },
   { src: "/gameimages/luckybunny.png", alt: "LuckyBunny" },
-  { src: "/gameimages/twox.png", alt: "TwoX" },
-  { src: "/gameimages/fourx.png", alt: "FourX" },
-  { src: "/gameimages/twentyfivex.png", alt: "TwentyFiveX" },
-  { src: "/gameimages/fiftyx.png", alt: "FiftyX" },
-  { src: "/gameimages/hundredx.png", alt: "HundredX" },
+  { src: "/gameimages/wetCrow.jpg", alt: "WetCrow" },
+  { src: "/gameimages/luckyhundred.png", alt: "Lucky100" },
 ];
 
 export default function Home() {
