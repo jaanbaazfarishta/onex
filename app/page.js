@@ -4,7 +4,7 @@ import Link from "next/link";
 const games = [
   { src: "/gameimages/fortunepills.jpg", alt: "FortunePills" },
   { src: "/gameimages/luckybunny.png", alt: "LuckyBunny" },
-  { src: "/gameimages/wetCrow.jpg", alt: "WetCrow" },
+  { src: "/gameimages/wetcrow.jpg", alt: "WetCrow" },
   { src: "/gameimages/luckyhundred.png", alt: "Lucky100" },
 ];
 
